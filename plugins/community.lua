@@ -6,5 +6,8 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin"},
   -- { import = "astrocommunity.colorscheme.dracula", enabled = true },
-  { import = "astrocommunity.completion.copilot-lua-cmp", enabled = false },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.test.neotest" }, -- TODO: make it work with scala, jest, pytest...
+  { import = "astrocommunity.motion.leap-nvim" },
 }
